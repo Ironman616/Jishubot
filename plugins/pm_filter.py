@@ -45,7 +45,7 @@ async def pm_search(client, message):
         await auto_filter(client, message)
     else:
         await message.reply_text("<b><i>ɪ ᴀᴍ ɴᴏᴛ ᴡᴏʀᴋɪɴɢ ʜᴇʀᴇ. ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇꜱ ɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ.</i></b>",
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ", url=f'https://t.me/JisshuMovieZone')]]))
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ", url=f'https://t.me/JisshuMoviene')]]))
         
     
 @Client.on_message(filters.group & filters.text & filters.incoming)
@@ -136,8 +136,8 @@ async def refercall(bot, query):
     reply_markup = InlineKeyboardMarkup(btn)
     await bot.send_photo(
         chat_id=query.message.chat.id,
-        photo="https://graph.org/file/1a2e64aee3d4d10edd930.jpg",
-        caption=f'Hay Your refer link:\n\nhttps://t.me/{bot.me.username}?start=reff_{query.from_user.id}\n\nShare this link with your friends, Each time they join, you will get 10 referral points and after 100 points you will get 1 month premium subscription.',
+        photo="https://graph.org/file/a319f6b9ce3b993c6e22f.jpg",
+        caption=f'<b>──「<a href=https://t.me/MOVIE_LOVERZZ> DONATE & SUPPORT US </a> 」──\n\n𝖧𝗂 ɢᴜʏꜱ.𝖮𝗎𝗋 𝖡𝗈𝗍 𝖨𝗌 𝖦𝗂𝗏𝗂𝗇𝗀 𝖣𝗂𝗋𝖾𝖼𝗍 𝖥𝗂𝗅𝖾𝗌 𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖲𝗁𝗈𝗋𝗍𝗇𝖾𝗋𝗌, 𝖴𝗇𝗅𝗂𝗄𝖾 𝖮𝗍𝗁𝖾𝗋 𝖡𝗈𝗍𝗌. 𝖲𝗈 𝖨𝖿 𝖸𝗈𝗎 𝖫𝗂𝗄𝖾 𝖮𝗎𝗋 𝖥𝗋𝖾𝖾 𝖲𝖾𝗋𝗏𝗂𝖼𝖾 𝖯𝗅𝖾𝖺𝗌𝖾 𝖣𝗈𝗇𝖺𝗍𝖾 𝖴𝗌𝖶𝗁𝗂𝖼𝗁 𝖶𝗂𝗅𝗅 𝖡𝖾 𝖱𝖾𝖺𝗅𝗅𝗒 𝖧𝖾𝗅𝗉𝖿𝗎𝗅𝗅 𝖥𝗈𝗋 𝖴𝗌.\n\n𝖠𝗇𝗒 𝖠𝗆𝗈𝗎𝗇𝗍 𝖶𝗈𝗎𝗅𝖽 𝖡𝖾 𝖥𝗂𝗇𝖾 (10, 20, 30, 50, 100...etc) 𝖠𝗌 𝖫𝗈𝗇𝗀 𝖠𝗌 𝖸𝗈𝗎 𝖳𝗁𝗂𝗇𝗄 𝖮𝗎𝗋 𝖡𝗈𝗍 ᴅ𝖾𝗌𝖾𝗋𝗏𝖾𝗌 𝖨𝗍.\n ᴠᴇʀᴇ ᴄʜᴀɴɴᴇʟꜱ ʟᴀɢᴀ ꜰɪʟᴇꜱ ᴋɪ ꜱʜᴏʀᴛʟɪɴᴋꜱ ᴀɴᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴꜱ ꜱᴄʜᴇᴍᴇ ɪᴛʜᴇʏ ᴍᴀɴᴀ ᴄʜᴀɴɴᴇʟ ʟᴏ ᴜɴᴅᴀᴅᴜ. ɪɴᴋᴀ ᴍɪ ɪꜱᴛᴀᴍ \n\nIf any one want to donate please Dm to this ID @MLadminbot 👈\n\n𝗧𝗛𝗔𝗡𝗞𝗦 𝗜𝗡 𝗔𝗗𝗩𝗔𝗡𝗖𝗘, 𝗬𝗢𝗨𝗥 𝗖𝗢𝗡𝗧𝗥𝗜𝗕𝗨𝗧𝗜𝗢𝗡𝗦 𝗥𝗘𝗔𝗟𝗟𝗬 𝗛𝗘𝗟𝗣𝗙𝗨𝗟𝗟 𝗙𝗢𝗥 𝗨𝗦🤍',
         reply_markup=reply_markup,
         parse_mode=enums.ParseMode.HTML
     )
@@ -781,7 +781,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ", url=online),
             InlineKeyboardButton("ꜰᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=download)
         ],[
-            InlineKeyboardButton('❌ ᴄʟᴏsᴇ ❌', callback_data='close_data')
+           # InlineKeyboardButton('❌ ᴄʟᴏsᴇ ❌', callback_data='close_data')
 	]]
         await query.edit_message_reply_markup(
         reply_markup=InlineKeyboardMarkup(btn)
@@ -813,12 +813,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                 InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                 ],[
-                InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
-                InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
+                InlineKeyboardButton("✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨",  url=f'https://t.me/+7hhFYFo61m5hNzU9'),
+                InlineKeyboardButton('🦋 Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ 🦋', url=f'https://t.me/+bKaEQbdeYnE5Zjhl')
                 ],[
-                InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
-                ],[
+                InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data='about'),
+                InlineKeyboardButton('Dᴏɴᴀᴛᴇ Uꜱ ⚜️', callback_data="reffff")
+	        ],[
                 InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                 InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                 ]] 
@@ -845,7 +845,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	)
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/JisshuDeveloperBot')
+            InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/JisshuDeveperBot')
         ],[
             InlineKeyboardButton('💎 𝗖𝘂𝘀𝘁𝗼𝗺 𝗣𝗹𝗮𝗻 💎', callback_data='other')
         ],[
@@ -989,7 +989,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [[
 			InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer')
 		],[
-			InlineKeyboardButton('Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='Source')
+			#InlineKeyboardButton('Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='Source')
                 ],[
                         InlineKeyboardButton('My Developers 😎',callback_data='mydevelopers')
 		],[

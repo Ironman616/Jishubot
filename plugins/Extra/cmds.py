@@ -31,10 +31,10 @@ async def grp_cmds(client, message):
 @Client.on_message(filters.command("admin_cmds") & filters.user(ADMINS))
 async def admin_cmds(client, message):
     buttons = [
-        [KeyboardButton("/add_premium"), KeyboardButton("/premium_users")],
-        [KeyboardButton("/remove_premium"), KeyboardButton("/add_redeem")],
-        [KeyboardButton("/refresh"), KeyboardButton("/set_muc")],
-        [KeyboardButton("/pm_search_on"), KeyboardButton("/pm_search_off")],
+       # [KeyboardButton("/add_premium"), KeyboardButton("/premium_users")],
+      #  [KeyboardButton("/remove_premium"), KeyboardButton("/add_redeem")],
+      #  [KeyboardButton("/refresh"), KeyboardButton("/set_muc")],
+      #  [KeyboardButton("/pm_search_on"), KeyboardButton("/pm_search_off")],
         [KeyboardButton("/set_ads"), KeyboardButton("/del_ads")],
         [KeyboardButton("/setlist"), KeyboardButton("/clearlist")],
         [KeyboardButton("/verify_id"), KeyboardButton("/index")],
@@ -45,7 +45,7 @@ async def admin_cmds(client, message):
         [KeyboardButton("/del_file"), KeyboardButton("/delete")],
         [KeyboardButton("/deletefiles"), KeyboardButton("/deleteall")],
         [KeyboardButton("All These Commands Can Be Used Only By Admins.")],
-        [KeyboardButton("⚡ powered by @JISSHU_BOTS")]
+        [KeyboardButton("⚡ powered by @Movie_Loverzz")]
     ]
     reply_markup = ReplyKeyboardMarkup(buttons, resize_keyboard=True, one_time_keyboard=True)
    
@@ -67,14 +67,14 @@ async def set_commands(client, message):
         BotCommand("trend", "Get Top Trending Button List"),
         BotCommand("mostlist", "Show Most Searches List"),
         BotCommand("trendlist", "𝖦𝖾𝗍 𝖳𝗈𝗉 𝖳𝗋𝖾𝗇𝖽𝗂𝗇𝗀 𝖡𝗎𝗍𝗍𝗈𝗇 𝖫𝗂𝗌t"),
-        BotCommand("plan", "Check Available Premium Membership Plans"),
-        BotCommand("myplan", "Check Your Currunt Plan"),
-        BotCommand("refer", "To Refer Your Friend And Get Premium"),
+        #BotCommand("plan", "Check Available Premium Membership Plans"),
+       # BotCommand("myplan", "Check Your Currunt Plan"),
+     #   BotCommand("refer", "To Refer Your Friend And Get Premium"),
         BotCommand("stats", "Check My Database"),
         BotCommand("id", "Get Telegram Id"),
         BotCommand("font", "To Generate Cool Fonts"),
-        BotCommand("details", "Check Group Details"),
-        BotCommand("settings", "Change Bot Setting"),
+       # BotCommand("details", "Check Group Details"),
+       # BotCommand("settings", "Change Bot Setting"),
         BotCommand("grp_cmds", "Check Group Commands"),
         BotCommand("admin_cmds", "Bot Admin Commands")
     ]
